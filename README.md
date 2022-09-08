@@ -28,6 +28,9 @@ https://xeno-canto.org/442392
 
 This code implements the convolutional layer of a  CNN. This CNN receives an input RGB image along with a 3D filter specified by the user. The next stage adds a randomly generated bias to the the CNN output. Then, the ReLU (rectified linear unit) activation function transforms this output to generate a feature map.  
 
+(6) SpectralEstimationWindowsFunctions
+
+This code illustrates the effects of 'spectral leakage' and how can it be decreased by truncating the signal with triangular, Hamming, and Hanning windows.
 
 
 
